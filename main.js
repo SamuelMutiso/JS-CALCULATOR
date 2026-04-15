@@ -51,3 +51,18 @@ function displayHistory () {
         } )
     }
 }
+
+// Testing if the calculator work 
+console.log(" Calculator Test Drive ");
+
+// Testing addition
+add(7, 5); 
+
+// Testing multiplication
+multiply(6, 9);
+
+// Testing division
+divide(50, 9);
+
+// Testing history display
+displayHistory();
