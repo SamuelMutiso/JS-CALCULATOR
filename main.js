@@ -22,4 +22,11 @@ function add( num1, num2) {
 function subtract(num1, num2) {
     const result = num1 - num2;
     addToHistory(num1, num2, "-", result);
-    return result; 
+    return result; }
+
+// we now creating the division function
+function multiply(num1, num2) {
+    const result = num1 * num2;
+    addToHistory(num1, num2, "*", result);
+    return result;
+}
