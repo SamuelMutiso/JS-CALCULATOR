@@ -39,3 +39,15 @@ function divide(num1, num2) {
     addToHistory(num1, num2, "/", result);
     return result;
 }
+
+// displaying the history of your calculations
+function displayHistory () {
+    if (calculationHistory.length === 0) {
+        console.log("No stored calculations.");
+    } else {
+        console.log("Calculation History:");
+        calculationHistory.forEach(item, index) => {
+            console.log(`${index + 1}: ${item.operand1} ${item.operator} ${item.operand2} = ${item.result}`);
+        }
+    }
+}
