@@ -4,8 +4,8 @@ let calculationHistory = [];
 // this add to history fucntipn will help build the object and push it to the array
 function addToHistory(num1, num2, operator, result) {
     const calculation = {
-        operand: num1,
-        operand: num2,
+        operand1: num1,
+        operand2: num2,
         operator: operator,
         result: result
     };
@@ -57,6 +57,9 @@ console.log(" Calculator Test Drive ");
 
 // Testing addition
 add(7, 5); 
+
+// testing subtraction
+subtract(93,90)
 
 // Testing multiplication
 multiply(6, 9);
