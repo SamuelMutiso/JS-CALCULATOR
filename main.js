@@ -11,3 +11,9 @@ function addToHistory(num1, num2, operator, result) {
     };
     calculationHistory.push(calculation);
 }
+// now we creating the arithmetic functions
+function add( num1, num2) {
+    const result = num1 + num2;
+    addToHistory(num1, num2, "+", result);
+    return result;
+}
