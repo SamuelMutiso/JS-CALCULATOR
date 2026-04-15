@@ -17,3 +17,9 @@ function add( num1, num2) {
     addToHistory(num1, num2, "+", result);
     return result;
 }
+
+// we now creating the subtraction function
+function subtract(num1, num2) {
+    const result = num1 - num2;
+    addToHistory(num1, num2, "-", result);
+    return result; 
