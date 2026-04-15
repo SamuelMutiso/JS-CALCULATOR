@@ -46,8 +46,8 @@ function displayHistory () {
         console.log("No stored calculations.");
     } else {
         console.log("Calculation History:");
-        calculationHistory.forEach(item, index) => {
+        calculationHistory.forEach((item, index) => {
             console.log(`${index + 1}: ${item.operand1} ${item.operator} ${item.operand2} = ${item.result}`);
-        }
+        } )
     }
 }
